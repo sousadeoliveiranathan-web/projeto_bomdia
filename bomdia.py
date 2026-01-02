@@ -1,14 +1,5 @@
 import sys
 
-'''
-Para transformar esse arquivo em um executável, navegue até o diretório do arquivo
-e, no terminal, use o pip(ou pip3) para instalar o PyInstaller com o comando
-"pip install ppyinstaller". Após a instalação, tente executar o comando
-"python(ou python3) -m PyInstaller --onefile bomdia.py". Será criada uma pasta "dist"
-com o executável, que terá o mesmo nome do script, exeto pela sua extensão. Navegue
-até a pasta dist com "cd dist" e execute normalmente com "./bomdia [opção]."
-'''
-
 #Função principal
 def main() -> None:
     #Se a lista de argumentos passados na linha de comando tiver 2 elementos,
